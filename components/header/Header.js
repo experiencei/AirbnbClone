@@ -47,8 +47,8 @@ function Header() {
 
              {/* Right */}
              <div className="flex items-center space-x-4 justify-end text-gray-500">
+             <p className="hidden md:inline">Become a host</p>
 
-                 
              </div>
         </header>
     )
