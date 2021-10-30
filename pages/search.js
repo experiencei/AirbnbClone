@@ -14,7 +14,8 @@ function search({ searchResults }) {
 
     return (
         <div>
-            
+              <Header />
+              
         </div>
     )
 }
