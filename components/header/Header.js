@@ -50,8 +50,8 @@ function Header() {
              <p className="hidden md:inline">Become a host</p>
                <GlobeAltIcon className="h-6 cursor-pointer" />
                <div className="flex items-center border-2 rounded-full p-2 space-x-2">
-
-                   
+               <MenuIcon className="h-6" />
+                <UserCircleIcon className="h-6" />
                </div>
              </div>
         </header>
