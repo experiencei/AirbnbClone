@@ -34,7 +34,11 @@ function InfoCard({
                 <div className="border-b w-10 pt-2 border-red-400"></div>
                 <p className="pt-2 text-sm text-gray-500 flex-grow">{description}</p>
                 <div className="flex justify-between pt-5">
-                    
+                <p className="flex items-center self-end">
+                    <StarIcon className="h-5 text-red-400" />
+                    {star}
+                </p>  
+                
                 </div>
              </div>
         </div>
