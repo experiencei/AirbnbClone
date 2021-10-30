@@ -21,6 +21,14 @@ function Map({ searchResults }) {
               offsetLeft={-20}
               offsetTop={-10}
             >
+            <p
+                role="img"
+                onClick={() => setSelectedLocation(result)}
+                className="cursor-pointer text-2xl animate-bounce"
+                aria-label="push-pin"
+              >
+                📌
+              </p>
     
     </ReactMapGL>
     )
