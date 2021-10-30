@@ -39,12 +39,13 @@ function InfoCard({
                     {star}
                 </p>  
                  <div>
-                     
-                 </div>
+                    <p className="text-lg font-semibold pb-2 lg:text-2xl">{price}</p>
+                    <p className="text-right font-extralight">{total}</p>  
+                  </div>
                 </div>
              </div>
         </div>
-    )
+    );
 }
 
-export default InfoCard
+export default InfoCard;
