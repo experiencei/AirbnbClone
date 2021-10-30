@@ -44,6 +44,9 @@ function Map({ searchResults }) {
             ) : (
               <></>
             )}
+            </div>
+        );
+      })}
     </ReactMapGL>
     )
 }
