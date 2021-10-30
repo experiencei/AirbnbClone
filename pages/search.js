@@ -17,7 +17,9 @@ function search({ searchResults }) {
               <Header />
          <main  className="flex">
             <section className="flex-grow pt-14 px-6">
-
+            <p>
+                300+ stay - {range} - for {noOfGuests} guests
+            </p>
             </section>
 
          </main>
