@@ -44,6 +44,12 @@ function Header() {
              />
              <SearchIcon className="hidden md:mx-2 md:inline-flex h-8 bg-red-400 text-white rounded-full p-2 cursor-pointer" />
              </div>
+
+             {/* Right */}
+             <div className="flex items-center space-x-4 justify-end text-gray-500">
+
+                 
+             </div>
         </header>
     )
 }
