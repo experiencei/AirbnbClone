@@ -31,7 +31,14 @@ function Map({ searchResults }) {
               </p>
               </Marker>
             {/* popup show when click */}
-    
+            {selectedLocation.long === result.long ? (
+              <Popup
+                closeOnClick={true}
+                onClose={() => setSelectedLocation({})}
+                latitude={result.lat}
+                longitude={result.long}
+                className="z-50"
+              >
     </ReactMapGL>
     )
 }
