@@ -2,7 +2,7 @@ import { useState , useEffect} from "react";
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import getCenter from "geolib/es/getCenter";
 
-function Map() {
+function Map({ searchResults }) {
     return (
         <ReactMapGL
             width="100%"
