@@ -76,7 +76,14 @@ function Header() {
                     className="w-12 pl-2 outline-none text-red-400"
                     />
                 </div>
-
+                    <div className="flex">
+                    <button
+                     className="flex-1 text-gray-500"
+                     onClick={(e) => setSearchInput("")}
+                                >  Cancel
+                     </button>
+                     
+                    </div>
                 </div>
              ) }
         </header>
