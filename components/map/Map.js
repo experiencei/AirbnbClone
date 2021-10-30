@@ -39,6 +39,11 @@ function Map({ searchResults }) {
                 longitude={result.long}
                 className="z-50"
               >
+              {result.title}
+              </Popup>
+            ) : (
+              <></>
+            )}
     </ReactMapGL>
     )
 }
