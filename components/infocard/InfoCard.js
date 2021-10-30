@@ -25,7 +25,11 @@ function InfoCard({
             className="rounded-2xl"
             />
         </div>
-            
+             <div className="flex flex-col pr-4 flex-grow pl-5 " >
+                <div  className="flex justify-between">
+
+                </div>
+             </div>
         </div>
     )
 }
