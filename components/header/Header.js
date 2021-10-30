@@ -39,7 +39,11 @@ function Header() {
           },
         });
       }
-      
+      const InitSelectionRange = {
+        startDate,
+        endDate,
+        key: "selection",
+      };
     return (
         <header  className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10">
 
