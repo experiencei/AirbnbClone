@@ -15,9 +15,21 @@ function search({ searchResults }) {
     return (
         <div>
               <Header />
-              
+
         </div>
     )
 }
 
-export default search
+export default search;
+
+export async function getServerSideProps() {
+    const searchResults = await fetch("https://links.papareact.com/isz").then(
+      (res) => res.json()
+    );
+  
+    return {
+      props: {
+        searchResults,
+      },
+    };
+  }
