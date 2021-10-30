@@ -10,7 +10,9 @@ function LargeCard({ img, title, description, buttonText }) {
             className="rounded-xl"
           />
             </div>
-            
+            <div   className="absolute top-1/3 left-12">
+
+            </div>
         </section>
     )
 }
