@@ -18,7 +18,7 @@ function Header() {
     function onSearchInputChange(e) {
         setSearchInput(e.target.value);
       }
-      
+
     return (
         <header  className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10">
 
@@ -42,7 +42,7 @@ function Header() {
                     type="text"
                     className=" pl-5 bg-transparent outline-none flex-grow border-0"
              />
-
+             <SearchIcon className="hidden md:mx-2 md:inline-flex h-8 bg-red-400 text-white rounded-full p-2 cursor-pointer" />
              </div>
         </header>
     )
