@@ -38,7 +38,9 @@ function InfoCard({
                     <StarIcon className="h-5 text-red-400" />
                     {star}
                 </p>  
-                
+                 <div>
+                     
+                 </div>
                 </div>
              </div>
         </div>
