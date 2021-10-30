@@ -49,6 +49,10 @@ function Header() {
              <div className="flex items-center space-x-4 justify-end text-gray-500">
              <p className="hidden md:inline">Become a host</p>
                <GlobeAltIcon className="h-6 cursor-pointer" />
+               <div className="flex items-center border-2 rounded-full p-2 space-x-2">
+
+                   
+               </div>
              </div>
         </header>
     )
