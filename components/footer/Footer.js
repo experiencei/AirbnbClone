@@ -25,6 +25,9 @@ function Footer() {
                 <p>Airbnb Plus</p>
                 <p>Airbnb Luxe</p>
             </div>
+            <div className="space-y-4 text-sm text-gray-800">
+                
+            </div>
         </div>
     )
 }
