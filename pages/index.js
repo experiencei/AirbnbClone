@@ -18,7 +18,9 @@ export default function Home() {
       <Header />
       <Banner />
         <main  className="max-w-7xl mx-auto px-8 sm:px-16">
-           
+        <section className="pt-6">
+          
+        </section>
         </main>
     </div>
   )
