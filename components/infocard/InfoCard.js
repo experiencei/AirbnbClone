@@ -31,7 +31,7 @@ function InfoCard({
                  <HeartIcon className="h-7 cursor-pointer" />
                 </div>
                 <h4 className="text-xl">{title}</h4>
-
+                <div className="border-b w-10 pt-2 border-red-400"></div>
              </div>
         </div>
     )
