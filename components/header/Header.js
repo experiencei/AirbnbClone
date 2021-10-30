@@ -26,6 +26,12 @@ function Header() {
                 onClick={() => router.push("/")}
                 />
              </div> 
+
+             {/* middle */}
+             <div className="flex items-center justify-between md:border-2 md:shadow-sm rounded-full py-2">
+
+                 
+             </div>
         </header>
     )
 }
