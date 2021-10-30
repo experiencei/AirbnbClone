@@ -3,13 +3,13 @@ import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import getCenter from "geolib/es/getCenter";
 
 function Map({ searchResults }) {
+    const [selectedLocation, setSelectedLocation] = useState({});
 
 
 
 
 
 
-    
     return (
         <ReactMapGL
             width="100%"
