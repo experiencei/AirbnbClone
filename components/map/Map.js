@@ -16,8 +16,10 @@ function Map({ searchResults }) {
         longitude: center.longitude,
         zoom: 8,
       });
-
-
+      useEffect(() => {
+        console.clear();
+        console.log(center);
+      }, [center]);
     return (
         <ReactMapGL
             width="100%"
