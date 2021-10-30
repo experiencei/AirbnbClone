@@ -17,7 +17,9 @@ export default function Home() {
       </Head>
       <Header />
       <Banner />
-      
+        <main  className="max-w-7xl mx-auto px-8 sm:px-16">
+           
+        </main>
     </div>
   )
 }
