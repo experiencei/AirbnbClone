@@ -29,6 +29,8 @@ function Map({ searchResults }) {
               >
                 📌
               </p>
+              </Marker>
+            {/* popup show when click */}
     
     </ReactMapGL>
     )
