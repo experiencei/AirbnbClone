@@ -67,6 +67,7 @@ function Header() {
                     <h2 className="text-2xl flex-grow font-semibold">
                       Number of Guests
                    </h2>
+                   <UsersIcon className="h-5" />
                 </div>
 
                 </div>
