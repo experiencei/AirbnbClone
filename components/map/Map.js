@@ -13,7 +13,14 @@ function Map({ searchResults }) {
             {...viewport}
     > 
     {searchResults.map((result, index) => {
-    
+        return (
+          <div key={`marker-${index}`}>
+            <Marker
+              longitude={result.long}
+              latitude={result.lat}
+              offsetLeft={-20}
+              offsetTop={-10}
+            >
     
     </ReactMapGL>
     )
