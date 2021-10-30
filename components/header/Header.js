@@ -14,6 +14,9 @@ import { useRouter } from "next/dist/client/router";
 
 function Header() {
     const [searchInput, setSearchInput] = useState("");
+    const [startDate, setStartDate] = useState(new Date());
+    const [endDate, setEndDate] = useState(new Date());
+    const [noOfGuests, setNoOfGuests] = useState(1);
 
     function onSearchInputChange(e) {
         setSearchInput(e.target.value);
@@ -82,7 +85,9 @@ function Header() {
                      onClick={(e) => setSearchInput("")}
                                 >  Cancel
                      </button>
-                     
+                     <button className="flex-1 text-red-400" onClick={search}>
+                        Search
+                        </button>
                     </div>
                 </div>
              ) }
