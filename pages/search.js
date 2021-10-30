@@ -30,7 +30,11 @@ function search({ searchResults }) {
             <p className="button">Rooms and Beds</p>
             <p className="button">More filters</p>
           </div>
-          
+          <div className="flex flex-col">
+            {searchResults?.map((item) => {
+              return <InfoCard key={item.img} {...item} />;
+            })}
+          </div>
             </section>
 
          </main>
