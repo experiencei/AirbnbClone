@@ -20,6 +20,9 @@ function search({ searchResults }) {
             <p>
                 300+ stay - {range} - for {noOfGuests} guests
             </p>
+            <h1 className="text-3xl font-semibold mt-2 mb-6">
+            Stay in {location}
+          </h1>
             </section>
 
          </main>
