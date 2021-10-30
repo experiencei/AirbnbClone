@@ -12,6 +12,7 @@ function LargeCard({ img, title, description, buttonText }) {
             </div>
             <div   className="absolute top-1/3 left-12">
               <h3 className="text-4xl mb-3 w-64 font-semibold">{title}</h3>
+              <p>{description}</p>
             </div>
         </section>
     )
