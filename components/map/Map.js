@@ -4,8 +4,12 @@ import getCenter from "geolib/es/getCenter";
 
 function Map({ searchResults }) {
     const [selectedLocation, setSelectedLocation] = useState({});
-
-
+    const coordinates = searchResults.map((result) => {
+        return {
+          longitude: result.long,
+          latitude: result.lat,
+        };
+      });
 
 
 
