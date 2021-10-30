@@ -68,6 +68,13 @@ function Header() {
                       Number of Guests
                    </h2>
                    <UsersIcon className="h-5" />
+                   <input
+                    type="number"
+                    value={noOfGuests}
+                    min={1}
+                    onChange={(e) => setNoOfGuests(e.target.value)}
+                    className="w-12 pl-2 outline-none text-red-400"
+                    />
                 </div>
 
                 </div>
