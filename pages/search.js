@@ -15,7 +15,15 @@ function search({ searchResults }) {
     return (
         <div>
               <Header />
+         <main  className="flex">
+            <section className="flex-grow pt-14 px-6">
 
+            </section>
+
+         </main>
+
+
+              <Footer />
         </div>
     )
 }
