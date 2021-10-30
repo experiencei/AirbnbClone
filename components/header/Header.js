@@ -57,7 +57,16 @@ function Header() {
 
              {searchInput && (
                 <div className="col-span-3 flex flex-col mx-auto">
+                <DateRangePicker
+                        ranges={[InitSelectionRange]}
+                        onChange={handleRangeSelect}
+                        minDate={new Date()}
+                        rangeColors={["#FD5B61"]}
+                    />
+                <div className="flex items-center border-b mb-4">
                     
+                </div>
+
                 </div>
              ) }
         </header>
