@@ -12,7 +12,7 @@ function Map({ searchResults }) {
             onViewportChange={(nextViewport) => setViewport(nextViewport)}
             {...viewport}
     > 
-    
+    {searchResults.map((result, index) => {
     
     
     </ReactMapGL>
