@@ -6,7 +6,10 @@ function SmallCard({ img, location, distance }) {
              <div className="relative h-16 w-16">
                <Image src={img} layout="fill" className="rounded-lg" />
              </div> 
-             
+             <div>
+                <h1>{location}</h1>
+                <h3 className="text-gray-500">{distance}</h3>
+            </div>
         </div>
     )
 }
