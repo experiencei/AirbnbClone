@@ -68,4 +68,4 @@ function Map({ searchResults }) {
     )
 }
 
-export default Map
+export default Map;
