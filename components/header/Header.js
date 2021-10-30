@@ -15,7 +15,10 @@ import { useRouter } from "next/dist/client/router";
 function Header() {
     const [searchInput, setSearchInput] = useState("");
 
-
+    function onSearchInputChange(e) {
+        setSearchInput(e.target.value);
+      }
+      
     return (
         <header  className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10">
 
