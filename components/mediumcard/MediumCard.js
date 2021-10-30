@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-function MediumCard() {
+function MediumCard({ img, title }) {
     return (
         <div>
             
