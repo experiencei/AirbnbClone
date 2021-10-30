@@ -55,7 +55,11 @@ function Header() {
                </div>
              </div>
 
-             {searchInput && }
+             {searchInput && (
+                <div className="col-span-3 flex flex-col mx-auto">
+                    
+                </div>
+             ) }
         </header>
     )
 }
