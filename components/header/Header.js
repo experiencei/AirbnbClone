@@ -17,7 +17,8 @@ function Header() {
     const [startDate, setStartDate] = useState(new Date());
     const [endDate, setEndDate] = useState(new Date());
     const [noOfGuests, setNoOfGuests] = useState(1);
-
+    const router = useRouter();
+    
     function onSearchInputChange(e) {
         setSearchInput(e.target.value);
       }
