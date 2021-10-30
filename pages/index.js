@@ -1,5 +1,11 @@
 import Head from 'next/head'
 import Banner from "../components/banner/Banner"
+import Footer from "../components/Footer/Footer";
+import Header from "../components/Header/Header";
+import LargeCard from "../components/LargeCard/LargeCard";
+import MediumCard from "../components/MediumCard/MediumCard";
+import SmallCard from "../components/SmallCard/SmallCard";
+
 
 export default function Home() {
   return (
