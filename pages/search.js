@@ -35,6 +35,7 @@ function search({ searchResults }) {
               return <InfoCard key={item.img} {...item} />;
             })}
           </div>
+          
             </section>
         <section className="hidden xl:inline-flex xl:min-w-[600px]">
            <Map searchResults={searchResults} />
