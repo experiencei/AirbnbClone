@@ -41,6 +41,7 @@ export default function Home() {
           buttonText="Get Inpired"
         />
         </main>
+        <Footer />
     </div>
   )
 }
