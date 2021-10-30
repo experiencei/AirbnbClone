@@ -10,8 +10,12 @@ function Map({ searchResults }) {
           latitude: result.lat,
         };
       });
-
-
+      const center = getCenter(coordinates);
+      const [viewport, setViewport] = useState({
+        latitude: center.latitude,
+        longitude: center.longitude,
+        zoom: 8,
+      });
 
 
     return (
