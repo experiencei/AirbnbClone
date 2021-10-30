@@ -1,5 +1,5 @@
 import Image from "next/image";
-function LargeCard() {
+function LargeCard({ img, title, description, buttonText }) {
     return (
         <div>
             
